@@ -8,4 +8,5 @@
 [caffe安装](https://www.cnblogs.com/xuanxufeng/p/6150593.html)  
 [caffe安装报错](https://www.cnblogs.com/haiyang21/p/10214278.html)  
 [caffe报错 libcudnn.so.7](https://blog.csdn.net/sinat_23619409/article/details/85047788)  
+[caffe Cmake安装报错](https://blog.csdn.net/qq_42189368/article/details/87252919)
 别忘记在Makefile.config中修改算力
