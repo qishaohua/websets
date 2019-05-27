@@ -7,4 +7,5 @@
 [ncnn使用](https://github.com/Ewenwan/MVision/tree/master/CNN/HighPerformanceComputing/example)  
 [caffe安装](https://www.cnblogs.com/xuanxufeng/p/6150593.html)  
 [caffe安装报错](https://www.cnblogs.com/haiyang21/p/10214278.html)  
+[caffe报错 libcudnn.so.7](https://blog.csdn.net/sinat_23619409/article/details/85047788)  
 别忘记在Makefile.config中修改算力
