@@ -14,5 +14,8 @@
 [编译过程中的一些问题](https://github.com/Ewenwan/ORB_SLAM2_SSD_Semantic/issues/2)  
 'dict_keys' object has no attribute 'remove' 解决方案：  
 #first_keys = first_list.keys()  
-#second_keys = second_list.keys()  first_keys = list(first_list)  
-    second_keys = list(second_list)
+#second_keys = second_list.keys()  
+first_keys = list(first_list)  
+second_keys = list(second_list)
+
+[]()
