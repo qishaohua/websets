@@ -16,6 +16,16 @@
 #first_keys = first_list.keys()  
 #second_keys = second_list.keys()  
 first_keys = list(first_list)  
-second_keys = list(second_list)
+second_keys = list(second_list)  
 
-[]()
+[Ubuntu16.04+cuda9.0安装教程](https://www.cnblogs.com/iloveblog/p/7683349.html)  
+[CUDA9.1、cuDNN7在Ubuntu16.04上的安装](https://blog.csdn.net/jonms/article/details/79318566)  
+[OpenCV - Linux（Ubuntu 16.04）中安装OpenCV + OpenCV_Contrib](https://www.cnblogs.com/fx-blog/p/8213704.html)  
+[ubuntu16.04安装opencv3.4](https://blog.csdn.net/u013066730/article/details/79411767)  
+[ubuntu 安装Pangolin 过程](https://blog.csdn.net/u012986684/article/details/52860849)  
+  
+    
+      
+软件卸载  
+sudo rm -r /usr/include/pcl-1.7 /usr/share/pcl /usr/bin/pcl* /usr/lib/libpcl*  
+sudo apt-get purge libvtk*  
