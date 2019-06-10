@@ -40,3 +40,7 @@ YOLO运行
     
       
 [Ubuntu16.04编译高博的ORBSLAM2_with_pointcloud_map](https://blog.csdn.net/qq_25349629/article/details/88350374)  
+
+  
+[ubuntu16配置Mask-RCNN](https://www.cnblogs.com/herd/p/9364911.html)
+[[论文笔记]Meaningful Maps With Object-Oriented Semantic Mapping](https://blog.csdn.net/pikachu_777/article/details/84570980)  
