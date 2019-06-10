@@ -29,3 +29,14 @@ second_keys = list(second_list)
 软件卸载  
 sudo rm -r /usr/include/pcl-1.7 /usr/share/pcl /usr/bin/pcl* /usr/lib/libpcl*  
 sudo apt-get purge libvtk*  
+  
+  
+  
+
+YOLO运行  
+./darknet detector demo cfg/coco.data cfg/yolov3.cfg yolov3.weights  
+./darknet detect cfg/yolov3.cfg yolov3.weights data/eagle.jpg  
+  
+    
+      
+[Ubuntu16.04编译高博的ORBSLAM2_with_pointcloud_map](https://blog.csdn.net/qq_25349629/article/details/88350374)  
