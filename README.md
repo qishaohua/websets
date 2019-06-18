@@ -51,3 +51,5 @@ YOLO运行
 [图漾 Percipio FM810-HD 的使用](https://blog.csdn.net/learning_tortosie/article/details/80887896)  
 
 [ORB-SLAM2主页](https://github.com/raulmur/ORB_SLAM2)  
+
+[MYNT-SDK](https://slightech.github.io/MYNT-EYE-D-SDK/build_linux.html)
