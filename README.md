@@ -53,3 +53,6 @@ YOLO运行
 [ORB-SLAM2主页](https://github.com/raulmur/ORB_SLAM2)  
 
 
+
+运行应用程序后，如果提示”Couldn’t open device, some information will be missing, ret: -3”, 请检查系统的访问权限配置是否正确。
+
