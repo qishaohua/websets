@@ -63,4 +63,6 @@ YOLO运行
 
 [ORB-SLAM2主页](https://github.com/raulmur/ORB_SLAM2)  
 
-[MYNT-SDK](https://slightech.github.io/MYNT-EYE-D-SDK/build_linux.html)
+[MYNT-SDK](https://slightech.github.io/MYNT-EYE-D-SDK/build_linux.html)  
+
+[ubuntu16安装ROS](https://blog.csdn.net/tq08g2z/article/details/79209435)
