@@ -82,6 +82,7 @@ find . -name "*opencv*" | xargs sudo rm -rf
 
 cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local -D OPENCV_EXTRA_MODULES_PATH=~/Package/opencv3.4.0/opencv_contrib/modules/ ..  
 
+[ubuntu下查看opencv安装路径以及版本号](https://blog.csdn.net/xunan003/article/details/82144924)
 
 ## YOLO GPU配置
 （一）.修改makefile 文件  
