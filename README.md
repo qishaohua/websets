@@ -140,3 +140,21 @@ cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local -D OPENCV_E
 
             注：lcuda 意思是libcuda，用如下命令定位libcuda位置  
 
+
+
+## yolov3编译问题
+
+yolov3 CUDA Error: out of memory darknet: ./src/cuda.c:36: check_error: Assertion `0' failed.
+
+https://blog.csdn.net/fanhongyuan21/article/details/81909994
+
+将yolov3.cfg中的
+
+    # Testing
+    batch=1       取消注释
+    subdivisions=1
+    # Training
+    #batch=64     注释掉
+    #subdivisions=16
+
+错是因为其申请了太多的内存而内存不够
