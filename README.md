@@ -65,4 +65,17 @@ YOLO运行
 
 [MYNT-SDK](https://slightech.github.io/MYNT-EYE-D-SDK/build_linux.html)  
 
-[ubuntu16安装ROS](https://blog.csdn.net/tq08g2z/article/details/79209435)
+[ubuntu16安装ROS](https://blog.csdn.net/tq08g2z/article/details/79209435)  
+
+[opencv_contrib网址](https://github.com/opencv/opencv_contrib)  
+
+[Ubuntu16.04卸载opencv 3.0.0，安装opencv3.4.2 + contrib……1](https://blog.csdn.net/haoqimao_hard/article/details/82049565)  
+[Ubuntu16.04卸载opencv 3.0.0，安装opencv3.4.2 + contrib……2](https://blog.csdn.net/cocoaqin/article/details/78163171)  
+
+
+pkg-config opencv --libs  
+pkg-config opencv --modversion  
+sudo find / -iname "*opencv*"  
+find . -name "*opencv*" | xargs sudo rm -rf  
+
+cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local -D OPENCV_EXTRA_MODULES_PATH=~/Package/opencv3.4.0/opencv_contrib/modules/ ..  
