@@ -81,3 +81,61 @@ sudo find / -iname "*opencv*"
 find . -name "*opencv*" | xargs sudo rm -rf  
 
 cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local -D OPENCV_EXTRA_MODULES_PATH=~/Package/opencv3.4.0/opencv_contrib/modules/ ..  
+
+
+## YOLO GPU配置
+（一）.修改makefile 文件  
+
+            1.打开darknet/MakeFile文件，将GPU=0 --> GPU=1
+
+            2.CUDNN=0 --> CUDNN=1
+
+            3.DEBUG=0 --> DEBUG=1
+
+           4.NVCC=/usr/local/cuda/cuda/bin/nvcc
+
+               -->NVCC=/usr/local/cuda-8.0/bin/nvcc（这里nvcc所在位置注意修改成自己的）
+
+           5.COMMON+= -DGPU -I/usr/local/cuda/include
+
+              -->COMMON+= -DGPU -I/usr/local/cuda-8.0/include
+
+           6.LDFLAGS+= -L/usr/local/cuda/lib64-lcuda -lcudart -lcublas -lcarand
+
+              --> LDFLAGS+= -L/usr/local/cuda-8.0/lib64-lcuda -lcudart -lcublas -lcarand
+
+
+
+  (二). 解决cudnn.h问题，重新下载加入文件夹中并链接
+ cudnn解压文件后会看到一个cuda文件夹，里面包含了include以及lib64两个子目录。
+
+             将这两个文件夹里的文件复制到cuda对应的安装目录。这里以cuda的安装目录为/usr/local/cuda/为例：
+
+               sudo cp ~/slam/package/cuda/include/cudnn.h /usr/local/cuda/include
+
+
+              sudo cp ~/slam/package/cuda/lib64/* /usr/local/cuda/lib64
+
+链接
+
+            #下面的操作在/usr/local/cuda/lib64/目录下进行
+
+               sudo rm -rf libcudnn.so libcudnn.so.7.0#删除两个符号链接；
+
+               sudo ln -s libcudnn.so.7.0.64 libcudnn.so.7.0
+
+               sudo ln -s libcudnn.so.7.0 libcudnn.so
+
+
+
+
+（三）. 解决找不到lcuda等库问题，查找并连接  
+
+               /usr/bin/ld: cannot find -lcarand
+
+               /usr/bin/ld: cannot find -lcuda
+
+               /usr/bin/ld: cannot find -lcudnn
+
+            注：lcuda 意思是libcuda，用如下命令定位libcuda位置  
+
