@@ -1,0 +1,71 @@
+MYNT EYE D SDK 相机说明书
+https://slightech.github.io/MYNT-EYE-D-SDK/build_linux.html
+
+在ROS中使用MYNTEYE相机跑ORBSLAM2
+https://blog.csdn.net/weixin_42577219/article/details/82257295
+
+在Ubuntu16.04（ROS-kinetic）上编译测试ORB-SLAM1和ORB-SLAM2
+https://blog.csdn.net/lixujie666/article/details/80475451
+
+
+############安装操作##########################
+创建工作空间
+  mkdir -p ~/Project/Slam/src
+  cd ~/Project/Slam/src/
+  catkin_init_workspace
+编译工作空间
+  cd ..
+  catkin_make
+添加环境变量
+  echo "source ~/Project/Slam/devel/setup.bash" >> ~/.bashrc
+  source ~/.bashrc
+
+把 ORB_SLAM2-MYNT 放在  ~/Project/Slam/src 路径下
+  cd ~/Project/Slam/src/ORB_SLAM2-MYNT
+
+编译ORBSLAM2
+  chmod +x build.sh
+  ./build.sh
+
+  chmod +x build_ros.sh
+  ./build_ros.sh
+
+安装SDK
+在 ~/project/slam/ 下放 MYNT-EYE-D-SDK
+  cd ~/project/slam/MYNT-EYE-D-SDK
+  make init
+  make all
+
+  make ros
+
+sudo gedit ~/.bashrc 
+echo "source ~/Project/MYNT-EYE-D-SDK/wrappers/ros/devel/setup.bash" >> ~/.bashrc
+##########安装完成#####################################
+
+echo $ROS_PACKAGE_PATH 显示roscd环境变量
+
+
+
+
+##############运行过程#################################
+打开三个终端
+(1) roscore
+(2) roscd mynteye_wrapper_d/ 
+    roslaunch mynteye_wrapper_d mynteye.launch
+
+    cd Project/MYNT-EYE-D-SDK/
+    source ./wrappers/ros/devel/setup.bash
+    roslaunch mynteye_wrapper_d mynteye.launch
+
+
+(3) roscd ORB_SLAM2/
+    #rosrun ORB_SLAM2 mynteye_d_stereo ../../../Vocabulary/ORBvoc.txt Asus.yaml ture
+
+export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:/home/qsh/Project/ORB_SLAM2-SLmap/Examples/ROS/ORB_SLAM2
+
+
+  双目  rosrun ORB_SLAM2 mynteye_d_stereo ../../../Vocabulary/ORBvoc.bin Asus.yaml ture
+  深度  rosrun ORB_SLAM2 mynteye_d_rgbd ../../../Vocabulary/ORBvoc.bin Asus.yaml
+
+   运行应用程序后，如果提示”Couldn’t open device, some information will be missing, ret: -3”, 请检查系统的访问权限配置是否正确。
+########################################################
