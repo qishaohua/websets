@@ -1,14 +1,11 @@
-MYNT EYE D SDK 相机说明书
-https://slightech.github.io/MYNT-EYE-D-SDK/build_linux.html
+[MYNT EYE D SDK 相机说明书](https://slightech.github.io/MYNT-EYE-D-SDK/build_linux.html)  
 
-在ROS中使用MYNTEYE相机跑ORBSLAM2
-https://blog.csdn.net/weixin_42577219/article/details/82257295
+[在ROS中使用MYNTEYE相机跑ORBSLAM2](https://blog.csdn.net/weixin_42577219/article/details/82257295)  
 
-在Ubuntu16.04（ROS-kinetic）上编译测试ORB-SLAM1和ORB-SLAM2
-https://blog.csdn.net/lixujie666/article/details/80475451
+[在Ubuntu16.04（ROS-kinetic）上编译测试ORB-SLAM1和ORB-SLAM2](https://blog.csdn.net/lixujie666/article/details/80475451)  
 
 
-############安装操作##########################
+## 安装操作
 创建工作空间
   mkdir -p ~/Project/Slam/src
   cd ~/Project/Slam/src/
