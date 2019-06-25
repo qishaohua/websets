@@ -67,6 +67,8 @@ YOLO运行
 
 [ubuntu16安装ROS](https://blog.csdn.net/tq08g2z/article/details/79209435)  
 
+## opencv3.4.0安装  
+
 [opencv_contrib网址](https://github.com/opencv/opencv_contrib)  
 
 [Ubuntu16.04卸载opencv 3.0.0，安装opencv3.4.2 + contrib……1](https://blog.csdn.net/haoqimao_hard/article/details/82049565)  
