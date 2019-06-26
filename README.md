@@ -35,7 +35,7 @@ second_keys = list(second_list)
 [ubuntu 安装Pangolin 过程](https://blog.csdn.net/u012986684/article/details/52860849)  
 [ORB-SLAM2 with Octomap](https://blog.csdn.net/qq_27840681/article/details/80168678)  
   
-    
+[Ubuntu 16.04安装tensorflow_gpu 1.9.0的方法](https://blog.csdn.net/davidhopper/article/details/81206673)    
       
 软件卸载  
 sudo rm -r /usr/include/pcl-1.7 /usr/share/pcl /usr/bin/pcl* /usr/lib/libpcl*  
