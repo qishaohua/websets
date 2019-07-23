@@ -13,6 +13,10 @@
 
 [caffe安装报错](https://www.cnblogs.com/haiyang21/p/10214278.html)  
 
+[ImportError: dynamic module does not define module export function (PyInit__caffe)](https://blog.csdn.net/qq_35759574/article/details/83750766)  
+
+[ImportError: No module named _caffe](https://blog.csdn.net/weixin_41803041/article/details/79495617)  
+
 别忘记在Makefile.config中修改算力
 [caffe报错 libcudnn.so.7](https://blog.csdn.net/sinat_23619409/article/details/85047788)  
 
