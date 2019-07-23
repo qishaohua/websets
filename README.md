@@ -22,6 +22,8 @@
 别忘记在Makefile.config中修改算力
 [caffe报错 libcudnn.so.7](https://blog.csdn.net/sinat_23619409/article/details/85047788)  
 
+[protobuf-2.5.0.tar.gz的下载与安装](https://www.tuicool.com/articles/jM7Nn2/)
+
 [caffe Cmake安装报错1](https://blog.csdn.net/qq_42189368/article/details/87252919)  
 
 [Ubuntu下，清屏等终端常用命令](https://blog.csdn.net/gaojinshan/article/details/9314435)  
