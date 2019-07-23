@@ -28,6 +28,8 @@
 
 [caffe Cmake安装报错1](https://blog.csdn.net/qq_42189368/article/details/87252919)  
 
+[caffe  python3编译caffe错误:cannot find -lboost_python3](https://blog.csdn.net/songyu0120/article/details/77895373)
+
 [Ubuntu下，清屏等终端常用命令](https://blog.csdn.net/gaojinshan/article/details/9314435)  
 
 [编译过程中的一些问题](https://github.com/Ewenwan/ORB_SLAM2_SSD_Semantic/issues/2)  
