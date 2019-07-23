@@ -32,6 +32,8 @@
 
 [Ubuntu下，清屏等终端常用命令](https://blog.csdn.net/gaojinshan/article/details/9314435)  
 
+[ubuntu 16.04安装 python3 caffe](https://blog.csdn.net/sinat_27240143/article/details/82701285)  
+
 [编译过程中的一些问题](https://github.com/Ewenwan/ORB_SLAM2_SSD_Semantic/issues/2)  
 
 'dict_keys' object has no attribute 'remove' 解决方案：  
