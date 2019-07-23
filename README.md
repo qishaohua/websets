@@ -17,6 +17,8 @@
 
 [ImportError: No module named _caffe](https://blog.csdn.net/weixin_41803041/article/details/79495617)  
 
+[Ubuntu16.04下完美切换Python版本](https://blog.csdn.net/beijiu5854/article/details/77897767)
+
 别忘记在Makefile.config中修改算力
 [caffe报错 libcudnn.so.7](https://blog.csdn.net/sinat_23619409/article/details/85047788)  
 
