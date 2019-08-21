@@ -11,6 +11,8 @@
 
 [caffe安装](https://www.cnblogs.com/xuanxufeng/p/6150593.html)  
 
+[SSD的配置安装与测试](https://blog.csdn.net/shawncheer/article/details/53227212/)  
+
 [caffe安装报错](https://www.cnblogs.com/haiyang21/p/10214278.html)  
 
 [ImportError: dynamic module does not define module export function (PyInit__caffe)](https://blog.csdn.net/qq_35759574/article/details/83750766)  
