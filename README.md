@@ -183,3 +183,7 @@ collect2: error: ld returned 1 exit status
 解决方案：
 ncnn:  make install --- 把 build/install/lib/libncnn.a 关联到 Cmake 文件中  
 ${PROJECT_SOURCE_DIR}/Thirdparty/ncnn/build/install/lib/libncnn.a  
+
+## QObject::killTimer: Timers cannot be stopped from another thread
+QObject::startTimer: Timers cannot be started from another thread  
+解决方案：
