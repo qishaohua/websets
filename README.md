@@ -174,3 +174,12 @@ https://blog.csdn.net/fanhongyuan21/article/details/81909994
     #subdivisions=16
 
 错是因为其申请了太多的内存而内存不够
+
+## ORBSLAM2编译ncnn  
+../lib/libORB_SLAM2_pc.so: undefined reference to `ncnn::Layer::destroy_pipeline(ncnn::Option const&)'  
+../lib/libORB_SLAM2_pc.so: undefined reference to `ncnn::Layer::create_pipeline(ncnn::Option const&)'  
+collect2: error: ld returned 1 exit status  
+
+解决方案：
+ncnn:  make install --- 把 build/install/lib/libncnn.a 关联到 Cmake 文件中  
+${PROJECT_SOURCE_DIR}/Thirdparty/ncnn/build/install/lib/libncnn.a  
