@@ -51,7 +51,10 @@ second_keys = list(second_list)
 [ubuntu 安装Pangolin 过程](https://blog.csdn.net/u012986684/article/details/52860849)  
 [ORB-SLAM2 with Octomap](https://blog.csdn.net/qq_27840681/article/details/80168678)  
   
-[Ubuntu 16.04安装tensorflow_gpu 1.9.0的方法](https://blog.csdn.net/davidhopper/article/details/81206673)    
+[Ubuntu 16.04安装tensorflow_gpu 1.9.0的方法](https://blog.csdn.net/davidhopper/article/details/81206673)  
+
+[图漾相机安装 ROS](https://blog.csdn.net/learning_tortosie/article/details/80887896)  
+注意： sudo apt-get install ros-indigo-rgbd-launch 这句是Ubuntu14.04版本的， 在16.04下用 sudo apt-get install ros-kenetic-rgbd-launch
       
 软件卸载  
 sudo rm -r /usr/include/pcl-1.7 /usr/share/pcl /usr/bin/pcl* /usr/lib/libpcl*  
@@ -187,3 +190,6 @@ ${PROJECT_SOURCE_DIR}/Thirdparty/ncnn/build/install/lib/libncnn.a
 ## QObject::killTimer: Timers cannot be stopped from another thread
 QObject::startTimer: Timers cannot be started from another thread  
 解决方案：
+
+
+
