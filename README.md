@@ -11,6 +11,8 @@
 
 [caffe安装](https://www.cnblogs.com/xuanxufeng/p/6150593.html)  
 
+[caffe-ssd](https://blog.csdn.net/lukaslong/article/details/81390276)  
+
 [SSD的配置安装与测试](https://blog.csdn.net/shawncheer/article/details/53227212/)  
 
 [caffe安装报错](https://www.cnblogs.com/haiyang21/p/10214278.html)  
