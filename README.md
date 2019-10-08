@@ -195,3 +195,51 @@ QObject::startTimer: Timers cannot be started from another thread
 
 
 
+
+# common
+PC常见问题
+
+
+[win10+ubuntu彻底删除ubuntu](https://www.jianshu.com/p/42af78f88962)  
+然后打开EasyUEFI，删除Ubuntu启动项  
+
+### 经费卡密码 8888
+
+
+### 图漾相机问题解决  
+问题描述：运行应用程序后，如果提示”Couldn’t open device, some information will be missing, ret: -3”, 请检查系统的访问权限配置是否正确。  
+sudo ./my_rgbd ../../Vocabulary/ORBvoc.bin my_rgbd_ty_api_adj.yaml
+
+
+### 卸载OpenCV的方法：进入OpenCV解压文件夹中的buid 文件夹：
+
+cd opencv-3.4.0/build
+
+运行：
+
+sudo make uninstall
+
+然后把整个opencv-3.4.0文件夹都删掉。随后再运行：
+
+sudo rm -r /usr/local/include/opencv2 /usr/local/include/opencv /usr/include/opencv /usr/include/opencv2 /usr/local/share/opencv /usr/local/share/OpenCV /usr/share/opencv /usr/share/OpenCV /usr/local/bin/opencv* /usr/local/lib/libopencv
+
+
+
+### ORBSLAM2_OCTOMAP_ROS
+roscore
+
+cd ~/Package/camport_ros/  
+roslaunch openni2_launch openni2.launch
+
+roscd ORB_SLAM2/  
+rosrun ORB_SLAM2 RGBD ../../../Vocabulary/ORBvoc.bin my_rgbd_ty_api_adj.yaml 
+
+### ORBSLAM2_PCL_ROS
+roscd ORB_SLAM2-pcl/  
+rosrun ORB_SLAM2-pcl RGBD ../../../Vocabulary/ORBvoc.bin my_rgbd_ty_api_adj.yaml 
+
+
+[ROS实现两台计算机之间的网络通信](https://www.cnblogs.com/liu-fa/p/5773822.html)  
+
+[电脑蓝屏](https://mp.weixin.qq.com/s?__biz=MzUyNzc0ODI1Nw==&mid=2247484202&idx=1&sn=299be09386fb9c90d7efea4f106dd45c&chksm=fa7b9ee4cd0c17f2764dd5df1fbf43bb8c6ddcd8e836d368d6892e93a623e41709772c917d77&mpshare=1&scene=1&srcid=12244sCMAMM2CqbIYSZjUubw#rd)  
+
