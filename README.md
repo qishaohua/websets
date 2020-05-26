@@ -247,3 +247,5 @@ rosrun ORB_SLAM2-pcl RGBD ../../../Vocabulary/ORBvoc.bin my_rgbd_ty_api_adj.yaml
 
 [电脑蓝屏](https://mp.weixin.qq.com/s?__biz=MzUyNzc0ODI1Nw==&mid=2247484202&idx=1&sn=299be09386fb9c90d7efea4f106dd45c&chksm=fa7b9ee4cd0c17f2764dd5df1fbf43bb8c6ddcd8e836d368d6892e93a623e41709772c917d77&mpshare=1&scene=1&srcid=12244sCMAMM2CqbIYSZjUubw#rd)  
 
+
+[ROS 编译错误以及解决方案](https://blog.csdn.net/u011608180/article/details/88419732)
