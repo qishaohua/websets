@@ -207,7 +207,6 @@ PC常见问题
 [win10+ubuntu彻底删除ubuntu](https://www.jianshu.com/p/42af78f88962)  
 然后打开EasyUEFI，删除Ubuntu启动项  
 
-### 经费卡密码 8888
 
 
 ### 图漾相机问题解决  
