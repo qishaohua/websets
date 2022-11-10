@@ -81,8 +81,6 @@ YOLO运行
 [ubuntu16配置Mask-RCNN](https://www.cnblogs.com/herd/p/9364911.html)  
 [[论文笔记]Meaningful Maps With Object-Oriented Semantic Mapping](https://blog.csdn.net/pikachu_777/article/details/84570980)  
 
-[最新网址get](http://zlibz.com/)  
-
   
 [图漾 Percipio FM810-HD 的使用](https://blog.csdn.net/learning_tortosie/article/details/80887896)  
 
